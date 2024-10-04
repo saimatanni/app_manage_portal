@@ -1,0 +1,12 @@
+.report_date_picker {
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    padding: 1px 3px;
+    
+}
+.react-date-picker__wrapper{
+    border: none;
+}
+.react-datetime-picker__button svg{
+    height: 13px;
+}

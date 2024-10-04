@@ -1,0 +1,250 @@
+/* body {
+  font-family: "Open Sans" !important;
+} */
+
+.today_detail_card,
+.transaction_card, .notification_detail_card {
+  /* width: 638px; */
+  height: 304px;
+  background: #fafafa;
+  border: 0.5px solid #e0e0e0;
+  border-radius: 12px;
+}
+
+.today_detail_card h1,.notification_detail_card h1  {
+  /* font-family: "Open Sans"; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 60px;
+  color: #333333;
+}
+
+.today_detail_card h2,
+.transaction_card h2, .notification_detail_card h2 {
+  /* font-family: "Open Sans"; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.0015em;
+  color: #333333;
+}
+
+.total_leads {
+  /* width: 185px; */
+  height: 210px;
+  background: #ffeee7;
+  border-radius: 12px;
+}
+
+.total_price {
+  /* width: 185px; */
+  
+  height: 210px;
+  background: #e0f7fa;
+  border-radius: 12px;
+}
+
+.total_application {
+  /* width: 185px; */
+  
+  height: 210px;
+  background: #fff1d7;
+  border-radius: 12px;
+}
+
+.details_icon {
+  display: flex;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.details_icon i {
+  color: #fff;
+  font-size: 28px;
+}
+
+.details_content p {
+  /* font-family: "Open Sans"; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  /* font-size: 16px; */
+  line-height: 20px;
+  letter-spacing: 0.005em;
+  color: #828282;
+}
+
+.details_content h6 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 0.0015em;
+  color: #333333;
+}
+.chart-amount{
+  text-align: center;
+}
+.chart-amount p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.0025em;
+  color: #828282;
+}
+
+.chart-amount h6 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.0015em;
+  color: #333333;
+}
+
+
+.new_leads_chart {
+  background: #fafafa;
+  border: 0.5px solid #e0e0e0;
+  border-radius: 12px;
+}
+
+/* .chart{
+      margin-top: -100px;
+  } */
+.chart_title h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #333333;
+}
+
+.chart_select_button select {
+  width: 124px;
+  height: 40px;
+  /* background: #ffffff; */
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+}
+
+.chart_select_button {
+  /* position: absolute;
+    right: 0;
+    z-index: 1; */
+  display: flex;
+  justify-content: end;
+}
+
+.chart {
+  margin-top: -100px;
+}
+
+@media (max-width: 768px) {
+  .chart {
+    margin-top: -40px;
+  }
+
+  .chart_title h2 {
+    font-size: 15px;
+  }
+
+  .chart_select_button {
+    margin-top: -40px;
+  }
+
+  .today_detail_card,
+  .transaction_card {
+    height: 100%;
+  }
+  .today_detail_card h1{
+    font-size: 30px;
+  }
+  .details_content h6{
+    font-size: 17px;
+  }
+}
+@media (max-width: 995px) {
+  .today_detail_card
+ {
+    height: 100%;
+  }
+}
+@media (max-width: 1180px) {
+  .today_detail_card h1{
+    font-size: 28px;
+  }
+  .details_content h6{
+    font-size: 14px;
+  }
+}
+/* Sidebar */
+
+.nav-group-items .nav-item {
+  /* background-color: #fff !important;
+  background: #fff; */
+  max-width: 90%;
+  margin-left: 5%;
+}
+
+.nav-group-items .nav-item {
+  /* background-color: #fff !important;
+  background: #fff; */
+  max-width: 90%;
+  margin-left: 5%;
+}
+
+.nav-group-items .nav-item .nav-link {
+  /* color: #212121; */
+
+}
+
+.nav-group-items .nav-item .nav-link:hover {
+  /* background-color: #d8e3e7 !important; */
+}
+.sidebar-nav .nav-link.active{
+  /* background-color: #d8e3e7 !important;  */
+}
+.sidebar-nav .nav-group.show .nav-group-toggle:hover {
+  background-color: #321fdb !important;
+}
+
+.nav-item:hover,
+.nav-group:hover {
+  background-color: transparent !important;
+}
+
+html:not([dir=rtl]) .sidebar-nav .nav-group-items .nav-link {
+  padding-left: 40px;
+}
+
+.active>.page-link,
+.page-link.active {
+  background-color: #2bb7da;
+  border-color: #2bb7da;
+}
+
+/* //chart */
+.apexcharts-legend.apx-legend-position-bottom, .apexcharts-legend.apx-legend-position-top{
+  display: none;
+}
+.apexcharts-legend-text{
+  display: none;
+}
+
+@media only screen and (min-device-width: 1280px) and (max-device-width: 2560px) and (min-resolution: 227dpi) and (max-resolution: 227dpi) {
+  /* Your styles for the MacBook Pro 13" (2022) go here */
+}
+.apexcharts-menu-icon{
+  display: none !important;
+}

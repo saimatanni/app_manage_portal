@@ -1,0 +1,37 @@
+/* Chat Css */
+.box{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: #C4C4C4;
+  }
+  .box h2{
+    color: #fff;
+    text-align: center;
+    padding-top: 5px;
+  }
+  .input-group-text{
+    background: #fff;
+  }
+  .input-group-append span{
+    border-left: none;
+  }
+
+  /* Task Css */
+  .btn-info{
+    background: #38b6ff ;
+    border: #38b6ff ;
+  }
+  .btn-info:hover {
+      color: #fff;
+      background-color: #004aad;
+      border-color: #004aad;
+  }
+  
+  .btn-info:not(:disabled):not(.disabled):active, .show > .btn-info.dropdown-toggle {
+      color: #fff;
+      background-color: #004aad;
+      border-color: #004aad;
+  }
+
+  /* Tickets Css */

@@ -1,0 +1,118 @@
+// If you want to override variables do it here
+// @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
+@import 'variables';
+
+$enable-ltr: true;
+$enable-rtl: true;
+
+// Import CoreUI for React components library
+@import '@coreui/coreui/scss/coreui';
+
+// Import Chart.js custom tooltips styles
+@import '@coreui/chartjs/scss/coreui-chartjs';
+
+@import 'layout';
+@import 'example';
+
+// If you want to add custom CSS you can put it here.
+// body{
+//   font-family: 'Open Sans', sans-serif;
+//   font-weight: 300 !important
+// }
+@import 'custom';
+.sidebar-brand,
+.sidebar-nav,
+.sidebar-toggler {
+  background-color: #181430 !important;
+}
+.nav-group-items {
+  //   background-color: aliceblue !important;
+  color: #1e1937 !important;
+}
+
+.nav-item:hover,
+.nav-group:hover {
+  background-color: #321fdb !important;
+}
+//  #18142C
+.nav-group-items .nav-item {
+  background-color: #1e1937 !important;
+}
+.sidebar-nav .nav-group-toggle::after {
+  transform: rotate(90deg) !important;
+}
+.sidebar-nav .nav-group.show > .nav-group-toggle::after {
+  transform: rotate(-0deg) !important;
+}
+.top-input {
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  background-clip: padding-box;
+  border: 1px solid;
+  color: #768192;
+  background-color: #fff;
+  border-color: #d8dbe0;
+  border-radius: 0.25rem;
+  outline: none;
+}
+.top-input:focus{
+
+}
+.sidebar-nav::-webkit-scrollbar {
+  width: 0.5rem !important;
+}
+
+.sidebar-nav::-webkit-scrollbar-thumb {
+  background-color: #768192 !important;
+  border-radius: 1rem;
+}
+.pointer{
+  cursor: pointer !important;
+}
+.pagination-container li{
+  border-right: none !important;
+}
+.pagination-container .next{
+  border-right: 1px solid #89bce7 !important;
+}
+.view_btn {
+  padding: 4px;
+  border: 1px solid #198754;
+  border-radius: 50%;
+  cursor: pointer;
+  color: #198754;
+}
+.view_btn:hover {
+  color: white;
+  background-color: #198754;
+}
+.edit_btn {
+  padding: 4px;
+  border: 1px solid deepskyblue;
+  border-radius: 50%;
+  cursor: pointer;
+  color: deepskyblue;
+}
+.edit_btn:hover {
+  color: white;
+  background-color: deepskyblue;
+}
+.delete_btn {
+  padding: 4px;
+  border: 1px solid rgb(239, 5, 5);
+  border-radius: 50%;
+  cursor: pointer;
+  color: rgb(239, 5, 5);
+}
+.delete_btn:hover {
+  color: white;
+  background-color: rgb(239, 5, 5);
+}
+@media only screen and (max-width: 576px) {
+  .paggiItem{
+    display: none;
+  }
+}

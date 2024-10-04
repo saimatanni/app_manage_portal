@@ -1,0 +1,29 @@
+.card {
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+ul {
+  list-style-type: none;
+}
+.view-detail {
+  color: #0a58ca;
+  text-decoration: underline;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  cursor: pointer;
+}
+.preview-header {
+  background: #1e2553;
+  border-radius: 5px 5px 0px 0px;
+  padding: 10px;
+}
+
+.modal-content {
+  text-align: center;
+}
+
+.modal-footer {
+  display: inline-block;
+}
+

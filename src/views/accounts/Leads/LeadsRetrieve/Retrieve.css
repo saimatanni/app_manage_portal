@@ -1,0 +1,122 @@
+.closeButton {
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    background: transparent;
+    border: 1px solid #EF9A9A;
+    border-radius: 50%;
+    color: #EF9A9A;
+}
+
+.closeButton:hover {
+    background: transparent;
+    border-radius: 50%;
+    border: 1px solid #EF9A9A;
+    color: #EF9A9A;
+}
+.leads {
+    border: 1px solid #eee;
+    padding: 2rem;
+    /* background: #fff; */
+    background: #f2f2f7;
+    -webkit-box-shadow: 0 0 2px rgba(0,0,0,.12), 0 2px 2px rgba(0,0,0,.25);
+    box-shadow: 0 0 2px rgba(0,0,0,.12), 0 2px 2px rgba(0,0,0,.25);
+}
+.schedule_table input{
+  padding-left: 23px;
+    /* padding: 9px; */
+    font-size: 1rem;
+    height: 40px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 0.375rem;
+}
+#appInput  input:disabled {
+  /* background-color: lightgray; */
+  color: gray;
+ 
+}
+#myInput  input:disabled {
+  background-color: lightgray;
+ 
+}
+#myInput  select:disabled {
+  background-color: lightgray;
+ 
+}
+#myInput input {
+  background-color: #ffe5b475; /* Color for enabled inputs */
+  color: black; /* Text color for enabled inputs */
+}
+#myInput select {
+  background-color: #ffe5b475; /* Color for enabled inputs */
+  color: black; /* Text color for enabled inputs */
+}
+#myInput textarea {
+  background-color: #ffe5b475; /* Color for enabled inputs */
+  color: black; /* Text color for enabled inputs */
+}
+  /* .currency-input {
+    display: flex;
+    align-items: center;
+  }
+  
+  .currency-symbol {
+    margin-right: 5px;
+  } */
+  .currency-input,
+.parcent-input {
+  position: relative;
+}
+
+.currency-input::before,
+.parcent-input::before {
+  content: '£';
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 14px;
+  pointer-events: none;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.parcent-input::before {
+  content: '%';
+
+}
+
+.parcent-input.focused::before,
+.currency-input.focused::before {
+  opacity: 0;
+}
+
+
+/* CSS for responsive layout */
+.hidden-pdf-content {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+@media screen and (max-width: 768px) {
+    .leads {
+      padding: 1rem;
+    }
+    /* .card{
+        width: 256px;
+    } */
+    .re_cost input{
+        width: 100px;
+    }
+    .a4-page {
+      width: auto;   /* Allow content to be as wide as the viewport */
+      height: auto;  /* Allow content to expand vertically */
+      padding: 0;    /* Remove padding to maximize content space */
+    }
+  }

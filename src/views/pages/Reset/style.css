@@ -1,0 +1,184 @@
+.main-color {
+  background: #1e2553;
+}
+
+.sgininButton button {
+  text-decoration: none;
+  background: #1e2553;
+  color: #fff;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 0.7rem 3rem 0.7rem 3rem;
+  border-radius: 8px;
+}
+
+.sgininButton a {
+  text-decoration: none;
+  background: #1e2553;
+  color: #fff;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 0.7rem 4rem 0.7rem 4rem;
+  border-radius: 8px;
+}
+
+.logo {
+  margin-top: 15%;
+}
+
+.w-r {
+  margin-top: 100px;
+  margin-bottom: 2%;
+}
+
+.login-form {
+  padding: 13% 28% 13% 12%;
+}
+
+.login-form h2 {
+  /* font-family: 'Open Sans', sans-serif; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 22px;
+  color: #17479d;
+  margin-bottom: 5rem;
+}
+
+.login-form h4 {
+  /* font-family: 'Open Sans', sans-serif; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.login-form p {
+  margin-top: 1.5rem;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(33, 33, 33, 0.6);
+}
+
+.form-check label {
+  font-family: Dosis;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #4f4f4f;
+}
+
+.sign h2 {
+  /* font-family: 'Open Sans', sans-serif; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 22px;
+  color: #000000;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+/* Otp Modal */
+
+.otp,
+.otp-input-8 {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: -14px;
+}
+
+.otp-input-8-field input {
+  border-bottom: 1px solid #000;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin: 5px;
+  background: transparent;
+  width: 40px;
+}
+
+.modal-content {
+  text-align: center;
+}
+
+.modal-header {
+  border: none;
+}
+
+.modal-footer {
+  display: none;
+}
+
+
+@media screen and (max-width: 992px) {
+  .login-form {
+    padding: 0;
+  }
+
+  .login-form h2 {
+    margin-top: 2rem;
+  }
+}
+
+/* extra css */
+.input-group-text{
+    /* padding: 10px 8px; */
+    border-radius: 0 0.37rem 0.37rem 0;
+    height: auto;
+}
+.reset{
+  background: #1e1937;
+  color: #fff;
+  font-family: Open Sans,sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 0.7rem 1rem 0.7rem 1rem;
+  border-radius: 8px;
+  margin: 25px -6px 0;
+  width: 200px;
+}
+.code_div div{
+  width: 61px;
+  height: 61px;
+  /* background-color: #F2F2F2; */
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+.code_div div input {
+  border-bottom: 1px solid #00000080;
+  border-top: none!important;
+  border-left: none!important;
+  border-right: none!important;
+  outline: none;
+  width: 70%;
+  height: 70%;
+  
+}
+/* Chrome, Safari, Edge, Opera */
+.code_div div input::-webkit-outer-spin-button,
+.code_div div input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.code_div div input[type=number] {
+  -moz-appearance: textfield;
+}
